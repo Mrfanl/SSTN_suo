@@ -70,6 +70,7 @@ torch.manual_seed(2)
 cudnn.enabled=True
 torch.cuda.manual_seed(2)
 
+start_time = time.time()
 
 args.save = 'IN-train-model-{}-arch-{}-{}-lr{}'.format(args.model, args.phi, time.strftime("%Y%m%d-%H%M%S"), args.learning_rate)
 utils.create_exp_dir(args.save, scripts_to_save=glob.glob('train_IN.py'))
@@ -434,7 +435,7 @@ OA, AA_mean, Kappa, AA = cal_results(matrix)
 logging.info('OA, AA_Mean, Kappa: %f, %f, %f, ', OA, AA_mean, Kappa)
 logging.info(str(("AA for each class: ", AA)))
 
-
+print("time: {}".format(time.time()-start_time))
 
 
 # # generate classification maps
