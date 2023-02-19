@@ -245,6 +245,8 @@ all_data = np.zeros((TOTAL_SIZE, INPUT_DIMENSION_CONV, 2*PATCH_LENGTH + 1, 2*PAT
 
 all_indices, train_indices, test_indices = rsampling(gt)
 
+import IPython;import sys
+IPython.embed(); sys.exit()
 
 y_train = gt[train_indices] - 1
 y_test = gt[test_indices] - 1
