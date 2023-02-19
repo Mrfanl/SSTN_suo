@@ -54,6 +54,7 @@ parser.add_argument('--save', type=str, default='EXP', help='experiment name')
 parser.add_argument('--sample', type=int, default=512, help='sample sizes for training')
 parser.add_argument('--model', type=str, default='SSTN', help='select network to train')
 parser.add_argument('--phi', type=str, default='AEAE', help='sequential order of network')
+parser.add_argument('--seed',type=int,default=2)
 # parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping')
 # parser.add_argument('--train_portion', type=float, default=0.5, help='portion of training data')
 # parser.add_argument('--unrolled', action='store_true', default=False, help='use one-step unrolled validation loss')
@@ -63,12 +64,12 @@ args = parser.parse_args()
 
 torch.cuda.set_device(args.gpu)
 
-np.random.seed(2)
+np.random.seed(args.seed)
 cudnn.benchmark = True
-torch.manual_seed(2)
+torch.manual_seed(args.seed)
 
 cudnn.enabled=True
-torch.cuda.manual_seed(2)
+torch.cuda.manual_seed(args.seed)
 
 start_time = time.time()
 
