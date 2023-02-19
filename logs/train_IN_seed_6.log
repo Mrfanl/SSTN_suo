@@ -1,0 +1,669 @@
+torch.Size([10, 9])
+Experiment dir : IN-train-model-SSTN-arch-AEAE-20230219-183308-lr0.002-seed6
+02/19 06:33:17 PM [1,     4] loss: 2.5536
+02/19 06:33:18 PM [1,     8] loss: 2.4629
+02/19 06:33:19 PM Accuracy of the network on the validation set: 11.42036 %
+02/19 06:33:19 PM new_pred 0.114204
+02/19 06:33:19 PM best_pred 0.000000
+02/19 06:33:20 PM [2,     4] loss: 2.2109
+02/19 06:33:20 PM [2,     8] loss: 2.1488
+02/19 06:33:21 PM Accuracy of the network on the validation set: 14.35761 %
+02/19 06:33:21 PM new_pred 0.143576
+02/19 06:33:21 PM best_pred 0.114204
+02/19 06:33:22 PM [3,     4] loss: 1.9987
+02/19 06:33:22 PM [3,     8] loss: 1.9461
+02/19 06:33:23 PM Accuracy of the network on the validation set: 19.79049 %
+02/19 06:33:23 PM new_pred 0.197905
+02/19 06:33:23 PM best_pred 0.143576
+02/19 06:33:24 PM [4,     4] loss: 1.7946
+02/19 06:33:24 PM [4,     8] loss: 1.7765
+02/19 06:33:25 PM Accuracy of the network on the validation set: 36.07887 %
+02/19 06:33:25 PM new_pred 0.360789
+02/19 06:33:25 PM best_pred 0.197905
+02/19 06:33:26 PM [5,     4] loss: 1.7115
+02/19 06:33:26 PM [5,     8] loss: 1.6669
+02/19 06:33:27 PM Accuracy of the network on the validation set: 55.86936 %
+02/19 06:33:27 PM new_pred 0.558694
+02/19 06:33:27 PM best_pred 0.360789
+02/19 06:33:28 PM [6,     4] loss: 1.5303
+02/19 06:33:28 PM [6,     8] loss: 1.5180
+02/19 06:33:29 PM Accuracy of the network on the validation set: 60.16227 %
+02/19 06:33:29 PM new_pred 0.601623
+02/19 06:33:29 PM best_pred 0.558694
+02/19 06:33:30 PM [7,     4] loss: 1.4405
+02/19 06:33:30 PM [7,     8] loss: 1.4848
+02/19 06:33:31 PM Accuracy of the network on the validation set: 62.89412 %
+02/19 06:33:31 PM new_pred 0.628941
+02/19 06:33:31 PM best_pred 0.601623
+02/19 06:33:32 PM [8,     4] loss: 1.2918
+02/19 06:33:32 PM [8,     8] loss: 1.3122
+02/19 06:33:33 PM Accuracy of the network on the validation set: 70.65831 %
+02/19 06:33:33 PM new_pred 0.706583
+02/19 06:33:33 PM best_pred 0.628941
+02/19 06:33:34 PM [9,     4] loss: 1.2119
+02/19 06:33:34 PM [9,     8] loss: 1.2439
+02/19 06:33:35 PM Accuracy of the network on the validation set: 72.22964 %
+02/19 06:33:35 PM new_pred 0.722296
+02/19 06:33:35 PM best_pred 0.706583
+02/19 06:33:36 PM [10,     4] loss: 1.1602
+02/19 06:33:36 PM [10,     8] loss: 1.1053
+02/19 06:33:37 PM Accuracy of the network on the validation set: 77.43658 %
+02/19 06:33:37 PM new_pred 0.774366
+02/19 06:33:37 PM best_pred 0.722296
+02/19 06:33:38 PM [11,     4] loss: 1.1012
+02/19 06:33:38 PM [11,     8] loss: 1.1000
+02/19 06:33:40 PM Accuracy of the network on the validation set: 60.90172 %
+02/19 06:33:40 PM [12,     4] loss: 1.0198
+02/19 06:33:40 PM [12,     8] loss: 1.0809
+02/19 06:33:42 PM Accuracy of the network on the validation set: 71.15128 %
+02/19 06:33:42 PM [13,     4] loss: 1.0424
+02/19 06:33:42 PM [13,     8] loss: 0.9496
+02/19 06:33:44 PM Accuracy of the network on the validation set: 75.40310 %
+02/19 06:33:44 PM [14,     4] loss: 0.9982
+02/19 06:33:44 PM [14,     8] loss: 0.7863
+02/19 06:33:46 PM Accuracy of the network on the validation set: 81.15436 %
+02/19 06:33:46 PM new_pred 0.811544
+02/19 06:33:46 PM best_pred 0.774366
+02/19 06:33:46 PM [15,     4] loss: 0.8727
+02/19 06:33:46 PM [15,     8] loss: 0.8122
+02/19 06:33:48 PM Accuracy of the network on the validation set: 71.90100 %
+02/19 06:33:48 PM [16,     4] loss: 0.8214
+02/19 06:33:48 PM [16,     8] loss: 0.7549
+02/19 06:33:50 PM Accuracy of the network on the validation set: 80.03492 %
+02/19 06:33:50 PM [17,     4] loss: 0.7873
+02/19 06:33:50 PM [17,     8] loss: 0.7992
+02/19 06:33:52 PM Accuracy of the network on the validation set: 81.79111 %
+02/19 06:33:52 PM new_pred 0.817911
+02/19 06:33:52 PM best_pred 0.811544
+02/19 06:33:52 PM [18,     4] loss: 0.7093
+02/19 06:33:52 PM [18,     8] loss: 0.6411
+02/19 06:33:54 PM Accuracy of the network on the validation set: 82.41758 %
+02/19 06:33:54 PM new_pred 0.824176
+02/19 06:33:54 PM best_pred 0.817911
+02/19 06:33:54 PM [19,     4] loss: 0.7047
+02/19 06:33:54 PM [19,     8] loss: 0.6097
+02/19 06:33:56 PM Accuracy of the network on the validation set: 79.12088 %
+02/19 06:33:56 PM [20,     4] loss: 0.5762
+02/19 06:33:56 PM [20,     8] loss: 0.6042
+02/19 06:33:58 PM Accuracy of the network on the validation set: 80.57923 %
+02/19 06:33:58 PM [21,     4] loss: 0.5873
+02/19 06:33:58 PM [21,     8] loss: 0.6832
+02/19 06:34:00 PM Accuracy of the network on the validation set: 83.56783 %
+02/19 06:34:00 PM new_pred 0.835678
+02/19 06:34:00 PM best_pred 0.824176
+02/19 06:34:00 PM [22,     4] loss: 0.5073
+02/19 06:34:00 PM [22,     8] loss: 0.5178
+02/19 06:34:02 PM Accuracy of the network on the validation set: 84.88241 %
+02/19 06:34:02 PM new_pred 0.848824
+02/19 06:34:02 PM best_pred 0.835678
+02/19 06:34:02 PM [23,     4] loss: 0.6466
+02/19 06:34:02 PM [23,     8] loss: 0.5507
+02/19 06:34:04 PM Accuracy of the network on the validation set: 72.19883 %
+02/19 06:34:04 PM [24,     4] loss: 0.5899
+02/19 06:34:04 PM [24,     8] loss: 0.5228
+02/19 06:34:06 PM Accuracy of the network on the validation set: 72.36315 %
+02/19 06:34:06 PM [25,     4] loss: 0.4801
+02/19 06:34:06 PM [25,     8] loss: 0.5231
+02/19 06:34:08 PM Accuracy of the network on the validation set: 76.86146 %
+02/19 06:34:08 PM [26,     4] loss: 0.4944
+02/19 06:34:08 PM [26,     8] loss: 0.4717
+02/19 06:34:10 PM Accuracy of the network on the validation set: 63.45897 %
+02/19 06:34:10 PM [27,     4] loss: 0.5077
+02/19 06:34:10 PM [27,     8] loss: 0.4405
+02/19 06:34:12 PM Accuracy of the network on the validation set: 83.57810 %
+02/19 06:34:12 PM [28,     4] loss: 0.4323
+02/19 06:34:12 PM [28,     8] loss: 0.5023
+02/19 06:34:14 PM Accuracy of the network on the validation set: 56.55746 %
+02/19 06:34:14 PM [29,     4] loss: 0.4702
+02/19 06:34:14 PM [29,     8] loss: 0.4436
+02/19 06:34:16 PM Accuracy of the network on the validation set: 86.61805 %
+02/19 06:34:16 PM new_pred 0.866181
+02/19 06:34:16 PM best_pred 0.848824
+02/19 06:34:16 PM [30,     4] loss: 0.5210
+02/19 06:34:16 PM [30,     8] loss: 0.3776
+02/19 06:34:18 PM Accuracy of the network on the validation set: 85.98131 %
+02/19 06:34:18 PM [31,     4] loss: 0.3675
+02/19 06:34:19 PM [31,     8] loss: 0.3320
+02/19 06:34:20 PM Accuracy of the network on the validation set: 82.46893 %
+02/19 06:34:21 PM [32,     4] loss: 0.3329
+02/19 06:34:21 PM [32,     8] loss: 0.4300
+02/19 06:34:22 PM Accuracy of the network on the validation set: 78.57656 %
+02/19 06:34:23 PM [33,     4] loss: 0.3477
+02/19 06:34:23 PM [33,     8] loss: 0.4479
+02/19 06:34:24 PM Accuracy of the network on the validation set: 86.90562 %
+02/19 06:34:24 PM new_pred 0.869056
+02/19 06:34:24 PM best_pred 0.866181
+02/19 06:34:25 PM [34,     4] loss: 0.2618
+02/19 06:34:25 PM [34,     8] loss: 0.3683
+02/19 06:34:26 PM Accuracy of the network on the validation set: 79.12088 %
+02/19 06:34:27 PM [35,     4] loss: 0.3151
+02/19 06:34:27 PM [35,     8] loss: 0.2973
+02/19 06:34:28 PM Accuracy of the network on the validation set: 87.52182 %
+02/19 06:34:28 PM new_pred 0.875218
+02/19 06:34:28 PM best_pred 0.869056
+02/19 06:34:29 PM [36,     4] loss: 0.3018
+02/19 06:34:29 PM [36,     8] loss: 0.3246
+02/19 06:34:30 PM Accuracy of the network on the validation set: 84.96457 %
+02/19 06:34:31 PM [37,     4] loss: 0.3030
+02/19 06:34:31 PM [37,     8] loss: 0.3809
+02/19 06:34:32 PM Accuracy of the network on the validation set: 83.42405 %
+02/19 06:34:33 PM [38,     4] loss: 0.2838
+02/19 06:34:33 PM [38,     8] loss: 0.3221
+02/19 06:34:34 PM Accuracy of the network on the validation set: 91.98932 %
+02/19 06:34:34 PM new_pred 0.919893
+02/19 06:34:34 PM best_pred 0.875218
+02/19 06:34:35 PM [39,     4] loss: 0.2725
+02/19 06:34:35 PM [39,     8] loss: 0.2900
+02/19 06:34:37 PM Accuracy of the network on the validation set: 87.75804 %
+02/19 06:34:37 PM [40,     4] loss: 0.3648
+02/19 06:34:37 PM [40,     8] loss: 0.4026
+02/19 06:34:39 PM Accuracy of the network on the validation set: 83.31108 %
+02/19 06:34:39 PM [41,     4] loss: 0.4014
+02/19 06:34:39 PM [41,     8] loss: 0.4203
+02/19 06:34:41 PM Accuracy of the network on the validation set: 79.50087 %
+02/19 06:34:41 PM [42,     4] loss: 0.3484
+02/19 06:34:41 PM [42,     8] loss: 0.3250
+02/19 06:34:43 PM Accuracy of the network on the validation set: 64.95841 %
+02/19 06:34:43 PM [43,     4] loss: 0.2847
+02/19 06:34:43 PM [43,     8] loss: 0.3453
+02/19 06:34:45 PM Accuracy of the network on the validation set: 90.96231 %
+02/19 06:34:45 PM [44,     4] loss: 0.3123
+02/19 06:34:45 PM [44,     8] loss: 0.2806
+02/19 06:34:47 PM Accuracy of the network on the validation set: 82.57163 %
+02/19 06:34:47 PM [45,     4] loss: 0.2412
+02/19 06:34:47 PM [45,     8] loss: 0.2543
+02/19 06:34:49 PM Accuracy of the network on the validation set: 84.27647 %
+02/19 06:34:49 PM [46,     4] loss: 0.2249
+02/19 06:34:49 PM [46,     8] loss: 0.2635
+02/19 06:34:51 PM Accuracy of the network on the validation set: 88.14830 %
+02/19 06:34:51 PM [47,     4] loss: 0.2010
+02/19 06:34:51 PM [47,     8] loss: 0.2703
+02/19 06:34:53 PM Accuracy of the network on the validation set: 84.23539 %
+02/19 06:34:53 PM [48,     4] loss: 0.2490
+02/19 06:34:53 PM [48,     8] loss: 0.2288
+02/19 06:34:55 PM Accuracy of the network on the validation set: 89.34990 %
+02/19 06:34:55 PM [49,     4] loss: 0.2337
+02/19 06:34:55 PM [49,     8] loss: 0.2555
+02/19 06:34:57 PM Accuracy of the network on the validation set: 86.64887 %
+02/19 06:34:57 PM [50,     4] loss: 0.2365
+02/19 06:34:58 PM [50,     8] loss: 0.2405
+02/19 06:34:59 PM Accuracy of the network on the validation set: 92.89309 %
+02/19 06:34:59 PM new_pred 0.928931
+02/19 06:34:59 PM best_pred 0.919893
+02/19 06:35:00 PM [51,     4] loss: 0.1844
+02/19 06:35:00 PM [51,     8] loss: 0.2474
+02/19 06:35:01 PM Accuracy of the network on the validation set: 92.26661 %
+02/19 06:35:02 PM [52,     4] loss: 0.1969
+02/19 06:35:02 PM [52,     8] loss: 0.2258
+02/19 06:35:03 PM Accuracy of the network on the validation set: 90.89042 %
+02/19 06:35:04 PM [53,     4] loss: 0.1883
+02/19 06:35:04 PM [53,     8] loss: 0.2015
+02/19 06:35:05 PM Accuracy of the network on the validation set: 86.18671 %
+02/19 06:35:06 PM [54,     4] loss: 0.2180
+02/19 06:35:06 PM [54,     8] loss: 0.2267
+02/19 06:35:07 PM Accuracy of the network on the validation set: 82.75650 %
+02/19 06:35:08 PM [55,     4] loss: 0.1385
+02/19 06:35:08 PM [55,     8] loss: 0.2034
+02/19 06:35:10 PM Accuracy of the network on the validation set: 88.57964 %
+02/19 06:35:10 PM [56,     4] loss: 0.1654
+02/19 06:35:10 PM [56,     8] loss: 0.1627
+02/19 06:35:12 PM Accuracy of the network on the validation set: 69.09726 %
+02/19 06:35:12 PM [57,     4] loss: 0.1640
+02/19 06:35:12 PM [57,     8] loss: 0.1626
+02/19 06:35:14 PM Accuracy of the network on the validation set: 60.76820 %
+02/19 06:35:14 PM [58,     4] loss: 0.1690
+02/19 06:35:14 PM [58,     8] loss: 0.2015
+02/19 06:35:16 PM Accuracy of the network on the validation set: 88.65154 %
+02/19 06:35:16 PM [59,     4] loss: 0.1594
+02/19 06:35:16 PM [59,     8] loss: 0.2035
+02/19 06:35:18 PM Accuracy of the network on the validation set: 85.87861 %
+02/19 06:35:18 PM [60,     4] loss: 0.2049
+02/19 06:35:18 PM [60,     8] loss: 0.2141
+02/19 06:35:20 PM Accuracy of the network on the validation set: 91.33203 %
+02/19 06:35:20 PM [61,     4] loss: 0.1270
+02/19 06:35:20 PM [61,     8] loss: 0.2039
+02/19 06:35:22 PM Accuracy of the network on the validation set: 81.49327 %
+02/19 06:35:22 PM [62,     4] loss: 0.2047
+02/19 06:35:22 PM [62,     8] loss: 0.2119
+02/19 06:35:24 PM Accuracy of the network on the validation set: 92.90336 %
+02/19 06:35:24 PM new_pred 0.929034
+02/19 06:35:24 PM best_pred 0.928931
+02/19 06:35:24 PM [63,     4] loss: 0.1800
+02/19 06:35:24 PM [63,     8] loss: 0.1575
+02/19 06:35:26 PM Accuracy of the network on the validation set: 87.37804 %
+02/19 06:35:26 PM [64,     4] loss: 0.1862
+02/19 06:35:26 PM [64,     8] loss: 0.1579
+02/19 06:35:28 PM Accuracy of the network on the validation set: 92.60553 %
+02/19 06:35:28 PM [65,     4] loss: 0.1786
+02/19 06:35:29 PM [65,     8] loss: 0.1504
+02/19 06:35:30 PM Accuracy of the network on the validation set: 91.16771 %
+02/19 06:35:30 PM [66,     4] loss: 0.1310
+02/19 06:35:31 PM [66,     8] loss: 0.1471
+02/19 06:35:32 PM Accuracy of the network on the validation set: 92.49255 %
+02/19 06:35:33 PM [67,     4] loss: 0.1369
+02/19 06:35:33 PM [67,     8] loss: 0.1249
+02/19 06:35:34 PM Accuracy of the network on the validation set: 93.71470 %
+02/19 06:35:34 PM new_pred 0.937147
+02/19 06:35:34 PM best_pred 0.929034
+02/19 06:35:35 PM [68,     4] loss: 0.1570
+02/19 06:35:35 PM [68,     8] loss: 0.2015
+02/19 06:35:36 PM Accuracy of the network on the validation set: 87.54236 %
+02/19 06:35:37 PM [69,     4] loss: 0.1975
+02/19 06:35:37 PM [69,     8] loss: 0.1661
+02/19 06:35:38 PM Accuracy of the network on the validation set: 64.94814 %
+02/19 06:35:39 PM [70,     4] loss: 0.2992
+02/19 06:35:39 PM [70,     8] loss: 0.2765
+02/19 06:35:40 PM Accuracy of the network on the validation set: 83.62945 %
+02/19 06:35:41 PM [71,     4] loss: 0.1947
+02/19 06:35:41 PM [71,     8] loss: 0.2175
+02/19 06:35:42 PM Accuracy of the network on the validation set: 79.52141 %
+02/19 06:35:43 PM [72,     4] loss: 0.3676
+02/19 06:35:43 PM [72,     8] loss: 0.3728
+02/19 06:35:44 PM Accuracy of the network on the validation set: 77.64198 %
+02/19 06:35:45 PM [73,     4] loss: 0.3412
+02/19 06:35:45 PM [73,     8] loss: 0.1752
+02/19 06:35:47 PM Accuracy of the network on the validation set: 67.31026 %
+02/19 06:35:47 PM [74,     4] loss: 0.1897
+02/19 06:35:47 PM [74,     8] loss: 0.2398
+02/19 06:35:49 PM Accuracy of the network on the validation set: 68.50159 %
+02/19 06:35:49 PM [75,     4] loss: 0.2228
+02/19 06:35:49 PM [75,     8] loss: 0.1467
+02/19 06:35:51 PM Accuracy of the network on the validation set: 91.28068 %
+02/19 06:35:51 PM [76,     4] loss: 0.1533
+02/19 06:35:51 PM [76,     8] loss: 0.1341
+02/19 06:35:53 PM Accuracy of the network on the validation set: 89.98665 %
+02/19 06:35:53 PM [77,     4] loss: 0.0947
+02/19 06:35:53 PM [77,     8] loss: 0.1356
+02/19 06:35:55 PM Accuracy of the network on the validation set: 87.90182 %
+02/19 06:35:55 PM [78,     4] loss: 0.2934
+02/19 06:35:55 PM [78,     8] loss: 0.2731
+02/19 06:35:57 PM Accuracy of the network on the validation set: 88.39478 %
+02/19 06:35:57 PM [79,     4] loss: 0.1817
+02/19 06:35:57 PM [79,     8] loss: 0.1354
+02/19 06:35:59 PM Accuracy of the network on the validation set: 87.10075 %
+02/19 06:35:59 PM [80,     4] loss: 0.1415
+02/19 06:35:59 PM [80,     8] loss: 0.1481
+02/19 06:36:01 PM Accuracy of the network on the validation set: 85.39591 %
+02/19 06:36:01 PM [81,     4] loss: 0.1811
+02/19 06:36:01 PM [81,     8] loss: 0.1465
+02/19 06:36:03 PM Accuracy of the network on the validation set: 78.31981 %
+02/19 06:36:03 PM [82,     4] loss: 0.1421
+02/19 06:36:03 PM [82,     8] loss: 0.1272
+02/19 06:36:05 PM Accuracy of the network on the validation set: 94.78279 %
+02/19 06:36:05 PM new_pred 0.947828
+02/19 06:36:05 PM best_pred 0.937147
+02/19 06:36:05 PM [83,     4] loss: 0.1237
+02/19 06:36:06 PM [83,     8] loss: 0.1508
+02/19 06:36:07 PM Accuracy of the network on the validation set: 95.25521 %
+02/19 06:36:07 PM new_pred 0.952552
+02/19 06:36:07 PM best_pred 0.947828
+02/19 06:36:07 PM [84,     4] loss: 0.0928
+02/19 06:36:08 PM [84,     8] loss: 0.0963
+02/19 06:36:09 PM Accuracy of the network on the validation set: 90.37691 %
+02/19 06:36:10 PM [85,     4] loss: 0.1418
+02/19 06:36:10 PM [85,     8] loss: 0.1248
+02/19 06:36:11 PM Accuracy of the network on the validation set: 95.31683 %
+02/19 06:36:11 PM new_pred 0.953168
+02/19 06:36:11 PM best_pred 0.952552
+02/19 06:36:12 PM [86,     4] loss: 0.0836
+02/19 06:36:12 PM [86,     8] loss: 0.1482
+02/19 06:36:13 PM Accuracy of the network on the validation set: 90.59258 %
+02/19 06:36:14 PM [87,     4] loss: 0.1567
+02/19 06:36:14 PM [87,     8] loss: 0.0917
+02/19 06:36:15 PM Accuracy of the network on the validation set: 94.52603 %
+02/19 06:36:16 PM [88,     4] loss: 0.1339
+02/19 06:36:16 PM [88,     8] loss: 0.1107
+02/19 06:36:17 PM Accuracy of the network on the validation set: 93.13957 %
+02/19 06:36:18 PM [89,     4] loss: 0.1283
+02/19 06:36:18 PM [89,     8] loss: 0.1255
+02/19 06:36:19 PM Accuracy of the network on the validation set: 93.93037 %
+02/19 06:36:20 PM [90,     4] loss: 0.1017
+02/19 06:36:20 PM [90,     8] loss: 0.1080
+02/19 06:36:22 PM Accuracy of the network on the validation set: 89.19585 %
+02/19 06:36:22 PM [91,     4] loss: 0.0965
+02/19 06:36:22 PM [91,     8] loss: 0.1092
+02/19 06:36:24 PM Accuracy of the network on the validation set: 92.87255 %
+02/19 06:36:24 PM [92,     4] loss: 0.0864
+02/19 06:36:24 PM [92,     8] loss: 0.1447
+02/19 06:36:26 PM Accuracy of the network on the validation set: 90.80826 %
+02/19 06:36:26 PM [93,     4] loss: 0.1365
+02/19 06:36:26 PM [93,     8] loss: 0.1136
+02/19 06:36:28 PM Accuracy of the network on the validation set: 87.32669 %
+02/19 06:36:28 PM [94,     4] loss: 0.0696
+02/19 06:36:28 PM [94,     8] loss: 0.0946
+02/19 06:36:30 PM Accuracy of the network on the validation set: 91.94824 %
+02/19 06:36:30 PM [95,     4] loss: 0.0893
+02/19 06:36:30 PM [95,     8] loss: 0.0794
+02/19 06:36:32 PM Accuracy of the network on the validation set: 95.74818 %
+02/19 06:36:32 PM new_pred 0.957482
+02/19 06:36:32 PM best_pred 0.953168
+02/19 06:36:32 PM [96,     4] loss: 0.0858
+02/19 06:36:32 PM [96,     8] loss: 0.1010
+02/19 06:36:34 PM Accuracy of the network on the validation set: 95.06008 %
+02/19 06:36:34 PM [97,     4] loss: 0.1081
+02/19 06:36:34 PM [97,     8] loss: 0.0598
+02/19 06:36:36 PM Accuracy of the network on the validation set: 95.31683 %
+02/19 06:36:36 PM [98,     4] loss: 0.0940
+02/19 06:36:37 PM [98,     8] loss: 0.0694
+02/19 06:36:38 PM Accuracy of the network on the validation set: 95.09089 %
+02/19 06:36:38 PM [99,     4] loss: 0.0843
+02/19 06:36:39 PM [99,     8] loss: 0.1635
+02/19 06:36:40 PM Accuracy of the network on the validation set: 86.18671 %
+02/19 06:36:41 PM [100,     4] loss: 0.2101
+02/19 06:36:41 PM [100,     8] loss: 0.3118
+02/19 06:36:42 PM Accuracy of the network on the validation set: 80.44572 %
+02/19 06:36:43 PM [101,     4] loss: 0.2385
+02/19 06:36:43 PM [101,     8] loss: 0.2110
+02/19 06:36:44 PM Accuracy of the network on the validation set: 90.58231 %
+02/19 06:36:45 PM [102,     4] loss: 0.1701
+02/19 06:36:45 PM [102,     8] loss: 0.1342
+02/19 06:36:46 PM Accuracy of the network on the validation set: 84.28674 %
+02/19 06:36:47 PM [103,     4] loss: 0.1221
+02/19 06:36:47 PM [103,     8] loss: 0.1250
+02/19 06:36:48 PM Accuracy of the network on the validation set: 85.02619 %
+02/19 06:36:49 PM [104,     4] loss: 0.1034
+02/19 06:36:49 PM [104,     8] loss: 0.1527
+02/19 06:36:50 PM Accuracy of the network on the validation set: 92.51309 %
+02/19 06:36:51 PM [105,     4] loss: 0.0872
+02/19 06:36:51 PM [105,     8] loss: 0.1922
+02/19 06:36:52 PM Accuracy of the network on the validation set: 72.08586 %
+02/19 06:36:53 PM [106,     4] loss: 0.1130
+02/19 06:36:53 PM [106,     8] loss: 0.1083
+02/19 06:36:54 PM Accuracy of the network on the validation set: 92.03040 %
+02/19 06:36:55 PM [107,     4] loss: 0.0933
+02/19 06:36:55 PM [107,     8] loss: 0.1048
+02/19 06:36:57 PM Accuracy of the network on the validation set: 91.84554 %
+02/19 06:36:57 PM [108,     4] loss: 0.1131
+02/19 06:36:57 PM [108,     8] loss: 0.1862
+02/19 06:36:59 PM Accuracy of the network on the validation set: 86.12509 %
+02/19 06:36:59 PM [109,     4] loss: 0.1030
+02/19 06:36:59 PM [109,     8] loss: 0.1278
+02/19 06:37:01 PM Accuracy of the network on the validation set: 94.08442 %
+02/19 06:37:01 PM [110,     4] loss: 0.0842
+02/19 06:37:01 PM [110,     8] loss: 0.1425
+02/19 06:37:03 PM Accuracy of the network on the validation set: 74.36582 %
+02/19 06:37:03 PM [111,     4] loss: 0.1060
+02/19 06:37:03 PM [111,     8] loss: 0.0673
+02/19 06:37:05 PM Accuracy of the network on the validation set: 94.99846 %
+02/19 06:37:05 PM [112,     4] loss: 0.1204
+02/19 06:37:05 PM [112,     8] loss: 0.0858
+02/19 06:37:07 PM Accuracy of the network on the validation set: 95.62494 %
+02/19 06:37:07 PM [113,     4] loss: 0.0845
+02/19 06:37:07 PM [113,     8] loss: 0.1250
+02/19 06:37:09 PM Accuracy of the network on the validation set: 96.08709 %
+02/19 06:37:09 PM new_pred 0.960871
+02/19 06:37:09 PM best_pred 0.957482
+02/19 06:37:09 PM [114,     4] loss: 0.0735
+02/19 06:37:09 PM [114,     8] loss: 0.0585
+02/19 06:37:11 PM Accuracy of the network on the validation set: 95.38872 %
+02/19 06:37:11 PM [115,     4] loss: 0.0767
+02/19 06:37:11 PM [115,     8] loss: 0.0720
+02/19 06:37:13 PM Accuracy of the network on the validation set: 83.43432 %
+02/19 06:37:13 PM [116,     4] loss: 0.1018
+02/19 06:37:13 PM [116,     8] loss: 0.0932
+02/19 06:37:15 PM Accuracy of the network on the validation set: 95.04981 %
+02/19 06:37:15 PM [117,     4] loss: 0.0613
+02/19 06:37:15 PM [117,     8] loss: 0.0639
+02/19 06:37:17 PM Accuracy of the network on the validation set: 94.54657 %
+02/19 06:37:17 PM [118,     4] loss: 0.0662
+02/19 06:37:17 PM [118,     8] loss: 0.1012
+02/19 06:37:19 PM Accuracy of the network on the validation set: 94.31036 %
+02/19 06:37:19 PM [119,     4] loss: 0.0758
+02/19 06:37:19 PM [119,     8] loss: 0.0908
+02/19 06:37:21 PM Accuracy of the network on the validation set: 93.60173 %
+02/19 06:37:21 PM [120,     4] loss: 0.0683
+02/19 06:37:21 PM [120,     8] loss: 0.0568
+02/19 06:37:23 PM Accuracy of the network on the validation set: 95.97412 %
+02/19 06:37:23 PM [121,     4] loss: 0.0759
+02/19 06:37:23 PM [121,     8] loss: 0.0449
+02/19 06:37:25 PM Accuracy of the network on the validation set: 96.42600 %
+02/19 06:37:25 PM new_pred 0.964260
+02/19 06:37:25 PM best_pred 0.960871
+02/19 06:37:25 PM [122,     4] loss: 0.0508
+02/19 06:37:25 PM [122,     8] loss: 0.1050
+02/19 06:37:27 PM Accuracy of the network on the validation set: 94.15631 %
+02/19 06:37:27 PM [123,     4] loss: 0.0515
+02/19 06:37:27 PM [123,     8] loss: 0.0514
+02/19 06:37:29 PM Accuracy of the network on the validation set: 95.18332 %
+02/19 06:37:29 PM [124,     4] loss: 0.0665
+02/19 06:37:29 PM [124,     8] loss: 0.0658
+02/19 06:37:31 PM Accuracy of the network on the validation set: 95.54277 %
+02/19 06:37:31 PM [125,     4] loss: 0.0791
+02/19 06:37:31 PM [125,     8] loss: 0.1088
+02/19 06:37:33 PM Accuracy of the network on the validation set: 94.79306 %
+02/19 06:37:33 PM [126,     4] loss: 0.0793
+02/19 06:37:33 PM [126,     8] loss: 0.0611
+02/19 06:37:35 PM Accuracy of the network on the validation set: 95.18332 %
+02/19 06:37:35 PM [127,     4] loss: 0.0611
+02/19 06:37:35 PM [127,     8] loss: 0.0574
+02/19 06:37:37 PM Accuracy of the network on the validation set: 95.72764 %
+02/19 06:37:37 PM [128,     4] loss: 0.0460
+02/19 06:37:37 PM [128,     8] loss: 0.0936
+02/19 06:37:39 PM Accuracy of the network on the validation set: 90.05854 %
+02/19 06:37:39 PM [129,     4] loss: 0.0780
+02/19 06:37:39 PM [129,     8] loss: 0.0686
+02/19 06:37:41 PM Accuracy of the network on the validation set: 89.29855 %
+02/19 06:37:41 PM [130,     4] loss: 0.0541
+02/19 06:37:41 PM [130,     8] loss: 0.0938
+02/19 06:37:43 PM Accuracy of the network on the validation set: 96.33357 %
+02/19 06:37:43 PM [131,     4] loss: 0.0544
+02/19 06:37:44 PM [131,     8] loss: 0.0522
+02/19 06:37:45 PM Accuracy of the network on the validation set: 94.97792 %
+02/19 06:37:45 PM [132,     4] loss: 0.0533
+02/19 06:37:46 PM [132,     8] loss: 0.0559
+02/19 06:37:47 PM Accuracy of the network on the validation set: 92.85201 %
+02/19 06:37:47 PM [133,     4] loss: 0.0363
+02/19 06:37:48 PM [133,     8] loss: 0.0558
+02/19 06:37:49 PM Accuracy of the network on the validation set: 94.75198 %
+02/19 06:37:50 PM [134,     4] loss: 0.0935
+02/19 06:37:50 PM [134,     8] loss: 0.0759
+02/19 06:37:51 PM Accuracy of the network on the validation set: 93.47848 %
+02/19 06:37:52 PM [135,     4] loss: 0.0378
+02/19 06:37:52 PM [135,     8] loss: 0.0392
+02/19 06:37:53 PM Accuracy of the network on the validation set: 89.62720 %
+02/19 06:37:54 PM [136,     4] loss: 0.0748
+02/19 06:37:54 PM [136,     8] loss: 0.0612
+02/19 06:37:55 PM Accuracy of the network on the validation set: 93.45794 %
+02/19 06:37:56 PM [137,     4] loss: 0.0741
+02/19 06:37:56 PM [137,     8] loss: 0.0823
+02/19 06:37:57 PM Accuracy of the network on the validation set: 95.62494 %
+02/19 06:37:58 PM [138,     4] loss: 0.0853
+02/19 06:37:58 PM [138,     8] loss: 0.0615
+02/19 06:37:59 PM Accuracy of the network on the validation set: 90.50015 %
+02/19 06:38:00 PM [139,     4] loss: 0.1239
+02/19 06:38:00 PM [139,     8] loss: 0.0849
+02/19 06:38:01 PM Accuracy of the network on the validation set: 88.85694 %
+02/19 06:38:02 PM [140,     4] loss: 0.0795
+02/19 06:38:02 PM [140,     8] loss: 0.0511
+02/19 06:38:03 PM Accuracy of the network on the validation set: 96.18979 %
+02/19 06:38:04 PM [141,     4] loss: 0.1551
+02/19 06:38:04 PM [141,     8] loss: 0.0962
+02/19 06:38:05 PM Accuracy of the network on the validation set: 93.99199 %
+02/19 06:38:06 PM [142,     4] loss: 0.0779
+02/19 06:38:06 PM [142,     8] loss: 0.0843
+02/19 06:38:07 PM Accuracy of the network on the validation set: 91.98932 %
+02/19 06:38:08 PM [143,     4] loss: 0.1307
+02/19 06:38:08 PM [143,     8] loss: 0.1352
+02/19 06:38:09 PM Accuracy of the network on the validation set: 81.29814 %
+02/19 06:38:10 PM [144,     4] loss: 0.3753
+02/19 06:38:10 PM [144,     8] loss: 0.1856
+02/19 06:38:12 PM Accuracy of the network on the validation set: 89.12396 %
+02/19 06:38:12 PM [145,     4] loss: 0.0965
+02/19 06:38:12 PM [145,     8] loss: 0.0839
+02/19 06:38:14 PM Accuracy of the network on the validation set: 94.91630 %
+02/19 06:38:14 PM [146,     4] loss: 0.0796
+02/19 06:38:14 PM [146,     8] loss: 0.0857
+02/19 06:38:16 PM Accuracy of the network on the validation set: 94.59793 %
+02/19 06:38:16 PM [147,     4] loss: 0.0792
+02/19 06:38:16 PM [147,     8] loss: 0.1061
+02/19 06:38:18 PM Accuracy of the network on the validation set: 93.92010 %
+02/19 06:38:18 PM [148,     4] loss: 0.0895
+02/19 06:38:18 PM [148,     8] loss: 0.0964
+02/19 06:38:20 PM Accuracy of the network on the validation set: 91.75311 %
+02/19 06:38:20 PM [149,     4] loss: 0.1078
+02/19 06:38:20 PM [149,     8] loss: 0.0825
+02/19 06:38:22 PM Accuracy of the network on the validation set: 91.50662 %
+02/19 06:38:22 PM [150,     4] loss: 0.0733
+02/19 06:38:22 PM [150,     8] loss: 0.0586
+02/19 06:38:24 PM Accuracy of the network on the validation set: 96.06655 %
+02/19 06:38:24 PM [151,     4] loss: 0.0767
+02/19 06:38:24 PM [151,     8] loss: 0.0789
+02/19 06:38:26 PM Accuracy of the network on the validation set: 95.52223 %
+02/19 06:38:26 PM [152,     4] loss: 0.0567
+02/19 06:38:26 PM [152,     8] loss: 0.0658
+02/19 06:38:28 PM Accuracy of the network on the validation set: 96.04601 %
+02/19 06:38:28 PM [153,     4] loss: 0.0686
+02/19 06:38:28 PM [153,     8] loss: 0.1073
+02/19 06:38:30 PM Accuracy of the network on the validation set: 87.64507 %
+02/19 06:38:30 PM [154,     4] loss: 0.1401
+02/19 06:38:30 PM [154,     8] loss: 0.0709
+02/19 06:38:32 PM Accuracy of the network on the validation set: 92.72877 %
+02/19 06:38:32 PM [155,     4] loss: 0.0486
+02/19 06:38:33 PM [155,     8] loss: 0.0895
+02/19 06:38:34 PM Accuracy of the network on the validation set: 82.21218 %
+02/19 06:38:34 PM [156,     4] loss: 0.0770
+02/19 06:38:35 PM [156,     8] loss: 0.0861
+02/19 06:38:36 PM Accuracy of the network on the validation set: 88.76451 %
+02/19 06:38:37 PM [157,     4] loss: 0.1942
+02/19 06:38:37 PM [157,     8] loss: 0.1078
+02/19 06:38:38 PM Accuracy of the network on the validation set: 86.65914 %
+02/19 06:38:39 PM [158,     4] loss: 0.0738
+02/19 06:38:39 PM [158,     8] loss: 0.1054
+02/19 06:38:40 PM Accuracy of the network on the validation set: 81.10301 %
+02/19 06:38:41 PM [159,     4] loss: 0.1338
+02/19 06:38:41 PM [159,     8] loss: 0.0908
+02/19 06:38:42 PM Accuracy of the network on the validation set: 86.86454 %
+02/19 06:38:43 PM [160,     4] loss: 0.0773
+02/19 06:38:43 PM [160,     8] loss: 0.1203
+02/19 06:38:44 PM Accuracy of the network on the validation set: 86.29968 %
+02/19 06:38:45 PM [161,     4] loss: 0.0621
+02/19 06:38:45 PM [161,     8] loss: 0.0677
+02/19 06:38:46 PM Accuracy of the network on the validation set: 95.29629 %
+02/19 06:38:47 PM [162,     4] loss: 0.0360
+02/19 06:38:47 PM [162,     8] loss: 0.0517
+02/19 06:38:49 PM Accuracy of the network on the validation set: 94.18712 %
+02/19 06:38:49 PM [163,     4] loss: 0.1316
+02/19 06:38:49 PM [163,     8] loss: 0.1065
+02/19 06:38:51 PM Accuracy of the network on the validation set: 93.99199 %
+02/19 06:38:51 PM [164,     4] loss: 0.0570
+02/19 06:38:51 PM [164,     8] loss: 0.0732
+02/19 06:38:53 PM Accuracy of the network on the validation set: 93.47848 %
+02/19 06:38:53 PM [165,     4] loss: 0.0568
+02/19 06:38:53 PM [165,     8] loss: 0.0624
+02/19 06:38:55 PM Accuracy of the network on the validation set: 93.16011 %
+02/19 06:38:55 PM [166,     4] loss: 0.0733
+02/19 06:38:55 PM [166,     8] loss: 0.1456
+02/19 06:38:57 PM Accuracy of the network on the validation set: 91.55797 %
+02/19 06:38:57 PM [167,     4] loss: 0.0822
+02/19 06:38:57 PM [167,     8] loss: 0.0486
+02/19 06:38:59 PM Accuracy of the network on the validation set: 93.07795 %
+02/19 06:38:59 PM [168,     4] loss: 0.0645
+02/19 06:38:59 PM [168,     8] loss: 0.0934
+02/19 06:39:01 PM Accuracy of the network on the validation set: 89.57584 %
+02/19 06:39:01 PM [169,     4] loss: 0.0505
+02/19 06:39:01 PM [169,     8] loss: 0.0688
+02/19 06:39:03 PM Accuracy of the network on the validation set: 90.85961 %
+02/19 06:39:03 PM [170,     4] loss: 0.0454
+02/19 06:39:03 PM [170,     8] loss: 0.0477
+02/19 06:39:05 PM Accuracy of the network on the validation set: 95.89196 %
+02/19 06:39:05 PM [171,     4] loss: 0.0328
+02/19 06:39:05 PM [171,     8] loss: 0.0545
+02/19 06:39:07 PM Accuracy of the network on the validation set: 95.60440 %
+02/19 06:39:07 PM [172,     4] loss: 0.0332
+02/19 06:39:07 PM [172,     8] loss: 0.0389
+02/19 06:39:09 PM Accuracy of the network on the validation set: 87.33696 %
+02/19 06:39:09 PM [173,     4] loss: 0.0617
+02/19 06:39:09 PM [173,     8] loss: 0.1101
+02/19 06:39:11 PM Accuracy of the network on the validation set: 82.60244 %
+02/19 06:39:11 PM [174,     4] loss: 0.0439
+02/19 06:39:11 PM [174,     8] loss: 0.0873
+02/19 06:39:13 PM Accuracy of the network on the validation set: 86.85427 %
+02/19 06:39:13 PM [175,     4] loss: 0.0561
+02/19 06:39:13 PM [175,     8] loss: 0.0491
+02/19 06:39:15 PM Accuracy of the network on the validation set: 87.92236 %
+02/19 06:39:15 PM [176,     4] loss: 0.0531
+02/19 06:39:16 PM [176,     8] loss: 0.0276
+02/19 06:39:17 PM Accuracy of the network on the validation set: 96.07682 %
+02/19 06:39:18 PM [177,     4] loss: 0.0570
+02/19 06:39:18 PM [177,     8] loss: 0.0844
+02/19 06:39:19 PM Accuracy of the network on the validation set: 96.28222 %
+02/19 06:39:20 PM [178,     4] loss: 0.0320
+02/19 06:39:20 PM [178,     8] loss: 0.0434
+02/19 06:39:21 PM Accuracy of the network on the validation set: 93.97145 %
+02/19 06:39:22 PM [179,     4] loss: 0.0533
+02/19 06:39:22 PM [179,     8] loss: 0.1156
+02/19 06:39:23 PM Accuracy of the network on the validation set: 89.54503 %
+02/19 06:39:24 PM [180,     4] loss: 0.0484
+02/19 06:39:24 PM [180,     8] loss: 0.0684
+02/19 06:39:25 PM Accuracy of the network on the validation set: 89.25747 %
+02/19 06:39:26 PM [181,     4] loss: 0.1087
+02/19 06:39:26 PM [181,     8] loss: 0.0533
+02/19 06:39:27 PM Accuracy of the network on the validation set: 95.85088 %
+02/19 06:39:28 PM [182,     4] loss: 0.0411
+02/19 06:39:28 PM [182,     8] loss: 0.0423
+02/19 06:39:29 PM Accuracy of the network on the validation set: 95.03954 %
+02/19 06:39:30 PM [183,     4] loss: 0.0576
+02/19 06:39:30 PM [183,     8] loss: 0.0394
+02/19 06:39:32 PM Accuracy of the network on the validation set: 96.47735 %
+02/19 06:39:32 PM new_pred 0.964774
+02/19 06:39:32 PM best_pred 0.964260
+02/19 06:39:32 PM [184,     4] loss: 0.0398
+02/19 06:39:32 PM [184,     8] loss: 0.0512
+02/19 06:39:34 PM Accuracy of the network on the validation set: 97.12437 %
+02/19 06:39:34 PM new_pred 0.971244
+02/19 06:39:34 PM best_pred 0.964774
+02/19 06:39:34 PM [185,     4] loss: 0.0349
+02/19 06:39:34 PM [185,     8] loss: 0.0867
+02/19 06:39:36 PM Accuracy of the network on the validation set: 82.00678 %
+02/19 06:39:36 PM [186,     4] loss: 0.0548
+02/19 06:39:36 PM [186,     8] loss: 0.0540
+02/19 06:39:38 PM Accuracy of the network on the validation set: 95.69683 %
+02/19 06:39:38 PM [187,     4] loss: 0.0459
+02/19 06:39:38 PM [187,     8] loss: 0.0894
+02/19 06:39:40 PM Accuracy of the network on the validation set: 90.03800 %
+02/19 06:39:40 PM [188,     4] loss: 0.0446
+02/19 06:39:40 PM [188,     8] loss: 0.1688
+02/19 06:39:42 PM Accuracy of the network on the validation set: 85.47807 %
+02/19 06:39:42 PM [189,     4] loss: 0.0862
+02/19 06:39:42 PM [189,     8] loss: 0.1941
+02/19 06:39:44 PM Accuracy of the network on the validation set: 85.18024 %
+02/19 06:39:44 PM [190,     4] loss: 0.0677
+02/19 06:39:44 PM [190,     8] loss: 0.2803
+02/19 06:39:46 PM Accuracy of the network on the validation set: 90.80826 %
+02/19 06:39:46 PM [191,     4] loss: 0.0615
+02/19 06:39:46 PM [191,     8] loss: 0.0894
+02/19 06:39:48 PM Accuracy of the network on the validation set: 95.27575 %
+02/19 06:39:48 PM [192,     4] loss: 0.0741
+02/19 06:39:48 PM [192,     8] loss: 0.0749
+02/19 06:39:50 PM Accuracy of the network on the validation set: 94.42333 %
+02/19 06:39:50 PM [193,     4] loss: 0.0391
+02/19 06:39:50 PM [193,     8] loss: 0.0587
+02/19 06:39:52 PM Accuracy of the network on the validation set: 91.28068 %
+02/19 06:39:52 PM [194,     4] loss: 0.0412
+02/19 06:39:52 PM [194,     8] loss: 0.0679
+02/19 06:39:54 PM Accuracy of the network on the validation set: 93.82767 %
+02/19 06:39:54 PM [195,     4] loss: 0.0898
+02/19 06:39:54 PM [195,     8] loss: 0.0832
+02/19 06:39:56 PM Accuracy of the network on the validation set: 94.42333 %
+02/19 06:39:56 PM [196,     4] loss: 0.0701
+02/19 06:39:56 PM [196,     8] loss: 0.0920
+02/19 06:39:58 PM Accuracy of the network on the validation set: 89.27801 %
+02/19 06:39:58 PM [197,     4] loss: 0.1263
+02/19 06:39:58 PM [197,     8] loss: 0.1473
+02/19 06:40:00 PM Accuracy of the network on the validation set: 95.39899 %
+02/19 06:40:00 PM [198,     4] loss: 0.0429
+02/19 06:40:00 PM [198,     8] loss: 0.0629
+02/19 06:40:02 PM Accuracy of the network on the validation set: 95.68656 %
+02/19 06:40:02 PM [199,     4] loss: 0.0540
+02/19 06:40:03 PM [199,     8] loss: 0.0435
+02/19 06:40:04 PM Accuracy of the network on the validation set: 94.58766 %
+02/19 06:40:04 PM [200,     4] loss: 0.0377
+02/19 06:40:05 PM [200,     8] loss: 0.0751
+02/19 06:40:06 PM Accuracy of the network on the validation set: 94.39252 %
+02/19 06:40:06 PM Finished Training
+02/19 06:40:08 PM OA, AA_Mean, Kappa: 0.971244, 0.921905, 0.967229, 
+02/19 06:40:08 PM ('AA for each class: ', array([0.40909091, 0.99189388, 0.98350254, 0.92888889, 0.98039216,
+       0.97982709, 0.88888889, 1.        , 0.78947368, 0.97074756,
+       0.96483705, 0.92007105, 1.        , 0.98918469, 0.95367847,
+       1.        ]))
+time: 419.705881357193

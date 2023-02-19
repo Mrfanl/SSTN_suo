@@ -73,7 +73,7 @@ torch.cuda.manual_seed(args.seed)
 
 start_time = time.time()
 
-args.save = 'IN-train-model-{}-arch-{}-{}-lr{}'.format(args.model, args.phi, time.strftime("%Y%m%d-%H%M%S"), args.learning_rate)
+args.save = 'IN-train-model-{}-arch-{}-{}-lr{}-seed{}'.format(args.model, args.phi, time.strftime("%Y%m%d-%H%M%S"), args.learning_rate,args.seed)
 utils.create_exp_dir(args.save, scripts_to_save=glob.glob('train_IN.py'))
 
 log_format = '%(asctime)s %(message)s'
