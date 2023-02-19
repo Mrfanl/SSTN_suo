@@ -4,3 +4,4 @@ datasets/*
 pretrained_models/*
 *.mat
 *.pth
+IN-train-model-SSTN-arch-AEAE-*/
