@@ -1,0 +1,6 @@
+*_pycache_*
+*.pyc
+datasets/*
+pretrained_models/*
+*.mat
+*.pth

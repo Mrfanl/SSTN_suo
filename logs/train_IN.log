@@ -1,0 +1,13 @@
+scripts/train_IN.sh: 2: scripts/train_IN.sh: expert: not found
+/home/amax/anaconda3/lib/python3.9/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+NVIDIA GeForce RTX 3080 Ti with CUDA capability sm_86 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70 sm_75.
+If you want to use the NVIDIA GeForce RTX 3080 Ti GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+torch.Size([10, 9])
+Experiment dir : IN-train-model-SSTN-arch-AEAE-20230219-155111-lr0.002
+Traceback (most recent call last):
+  File "/data/Fanliang/suo_work/SSTN/train_IN.py", line 329, in <module>
+    outputs = net(inputs.float())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
