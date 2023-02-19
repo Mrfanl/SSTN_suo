@@ -338,7 +338,7 @@ optimizer = optim.Adam(net.parameters(), lr=args.learning_rate)
 
 best_pred = 0
 #SAVE_PATH3 = './saved_models/ssnet_best3_up_seed' + str(args.seed) + '.pth' 
-SAVE_PATH3 = args.save + '/' + str(args.model) + '_sample' + str(args.sample) + '.pth' 
+SAVE_PATH3 = args.save + '/' + str(args.model) + '_sample' + str(args.seed) +'_'+ str(args.sample) + '.pth' 
 #torch.save(net.state_dict(), SAVE_PATH)
 
 for epoch in range(args.epochs):  # loop over the dataset multiple times
